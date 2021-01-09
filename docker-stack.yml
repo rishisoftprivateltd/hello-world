@@ -6,6 +6,6 @@ services:
       - 80:80
     deploy:
       mode: replicated
-      replicas: 2
+      replicas: 4
       restart_policy:
         condition: on-failure
